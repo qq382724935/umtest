@@ -13,13 +13,19 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		208AE2962579E5E100EB4569 /* UMPushModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AE28E2579E5E100EB4569 /* UMPushModule.m */; };
+		208AE2972579E5E100EB4569 /* UMPushModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AE28E2579E5E100EB4569 /* UMPushModule.m */; };
+		208AE2982579E5E100EB4569 /* UMShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AE2902579E5E100EB4569 /* UMShareModule.m */; };
+		208AE2992579E5E100EB4569 /* UMShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AE2902579E5E100EB4569 /* UMShareModule.m */; };
+		208AE29A2579E5E100EB4569 /* RNUMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AE2912579E5E100EB4569 /* RNUMConfigure.m */; };
+		208AE29B2579E5E100EB4569 /* RNUMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AE2912579E5E100EB4569 /* RNUMConfigure.m */; };
+		208AE29C2579E5E100EB4569 /* UMAnalyticsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AE2922579E5E100EB4569 /* UMAnalyticsModule.m */; };
+		208AE29D2579E5E100EB4569 /* UMAnalyticsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AE2922579E5E100EB4569 /* UMAnalyticsModule.m */; };
 		209190DF2579DB8B00C7BD38 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190DE2579DB8B00C7BD38 /* UserNotifications.framework */; };
 		209190E52579DB9500C7BD38 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190E42579DB9500C7BD38 /* libz.tbd */; };
 		209190EB2579DB9800C7BD38 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190E62579DB9800C7BD38 /* libsqlite3.0.tbd */; };
 		209190F12579DBA900C7BD38 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190F02579DBA900C7BD38 /* CoreTelephony.framework */; };
 		209190F72579DBAD00C7BD38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190F62579DBAD00C7BD38 /* SystemConfiguration.framework */; };
-		209191052579DC9400C7BD38 /* UMPushModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 209190FD2579DC9400C7BD38 /* UMPushModule.m */; };
-		209191072579DC9400C7BD38 /* RNUMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 209191002579DC9400C7BD38 /* RNUMConfigure.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -59,15 +65,19 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = umtest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = umtest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = umtest/main.m; sourceTree = "<group>"; };
+		208AE28E2579E5E100EB4569 /* UMPushModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPushModule.m; sourceTree = "<group>"; };
+		208AE28F2579E5E100EB4569 /* UMAnalyticsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMAnalyticsModule.h; sourceTree = "<group>"; };
+		208AE2902579E5E100EB4569 /* UMShareModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMShareModule.m; sourceTree = "<group>"; };
+		208AE2912579E5E100EB4569 /* RNUMConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUMConfigure.m; sourceTree = "<group>"; };
+		208AE2922579E5E100EB4569 /* UMAnalyticsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMAnalyticsModule.m; sourceTree = "<group>"; };
+		208AE2932579E5E100EB4569 /* UMPushModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPushModule.h; sourceTree = "<group>"; };
+		208AE2942579E5E100EB4569 /* UMShareModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMShareModule.h; sourceTree = "<group>"; };
+		208AE2952579E5E100EB4569 /* RNUMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUMConfigure.h; sourceTree = "<group>"; };
 		209190DE2579DB8B00C7BD38 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		209190E42579DB9500C7BD38 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		209190E62579DB9800C7BD38 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		209190F02579DBA900C7BD38 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		209190F62579DBAD00C7BD38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		209190FD2579DC9400C7BD38 /* UMPushModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPushModule.m; sourceTree = "<group>"; };
-		209191002579DC9400C7BD38 /* RNUMConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUMConfigure.m; sourceTree = "<group>"; };
-		209191022579DC9400C7BD38 /* UMPushModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPushModule.h; sourceTree = "<group>"; };
-		209191042579DC9400C7BD38 /* RNUMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUMConfigure.h; sourceTree = "<group>"; };
 		2AE074A3748EE050953C32C5 /* Pods-umtest-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-umtest-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-umtest-tvOS/Pods-umtest-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* umtest-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "umtest-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* umtest-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "umtest-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +156,7 @@
 		13B07FAE1A68108700A75B9A /* umtest */ = {
 			isa = PBXGroup;
 			children = (
-				209190FC2579DC9400C7BD38 /* UMReactBridge */,
+				208AE28D2579E5E100EB4569 /* UMReactBridge */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -158,13 +168,17 @@
 			name = umtest;
 			sourceTree = "<group>";
 		};
-		209190FC2579DC9400C7BD38 /* UMReactBridge */ = {
+		208AE28D2579E5E100EB4569 /* UMReactBridge */ = {
 			isa = PBXGroup;
 			children = (
-				209190FD2579DC9400C7BD38 /* UMPushModule.m */,
-				209191002579DC9400C7BD38 /* RNUMConfigure.m */,
-				209191022579DC9400C7BD38 /* UMPushModule.h */,
-				209191042579DC9400C7BD38 /* RNUMConfigure.h */,
+				208AE28E2579E5E100EB4569 /* UMPushModule.m */,
+				208AE28F2579E5E100EB4569 /* UMAnalyticsModule.h */,
+				208AE2902579E5E100EB4569 /* UMShareModule.m */,
+				208AE2912579E5E100EB4569 /* RNUMConfigure.m */,
+				208AE2922579E5E100EB4569 /* UMAnalyticsModule.m */,
+				208AE2932579E5E100EB4569 /* UMPushModule.h */,
+				208AE2942579E5E100EB4569 /* UMShareModule.h */,
+				208AE2952579E5E100EB4569 /* RNUMConfigure.h */,
 			);
 			path = UMReactBridge;
 			sourceTree = "<group>";
@@ -446,11 +460,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-umtest-umtestTests/Pods-umtest-umtestTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -502,11 +518,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-umtest/Pods-umtest-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -610,8 +628,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209191052579DC9400C7BD38 /* UMPushModule.m in Sources */,
-				209191072579DC9400C7BD38 /* RNUMConfigure.m in Sources */,
+				208AE2962579E5E100EB4569 /* UMPushModule.m in Sources */,
+				208AE2982579E5E100EB4569 /* UMShareModule.m in Sources */,
+				208AE29C2579E5E100EB4569 /* UMAnalyticsModule.m in Sources */,
+				208AE29A2579E5E100EB4569 /* RNUMConfigure.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -631,6 +651,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCD954D1E0B4F2C00145EB5 /* umtestTests.m in Sources */,
+				208AE2992579E5E100EB4569 /* UMShareModule.m in Sources */,
+				208AE29B2579E5E100EB4569 /* RNUMConfigure.m in Sources */,
+				208AE2972579E5E100EB4569 /* UMPushModule.m in Sources */,
+				208AE29D2579E5E100EB4569 /* UMAnalyticsModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

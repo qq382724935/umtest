@@ -11,6 +11,9 @@ target 'umtest' do
   pod 'UMCCommon'
   pod 'UMCCommonLog'
   pod 'UMCPush'
+  pod 'UMCShare/UI'
+  # 集成微信(完整版14.4M)
+  pod 'UMCShare/Social/WeChat'
   
   target 'umtestTests' do
     inherit! :complete

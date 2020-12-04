@@ -14,10 +14,10 @@
 
 // 友盟
 #import <UMCommon/UMCommon.h>
-#import <UMCommon/MobClick.h>
 #import <UMCommonLog/UMCommonLogHeaders.h>
 #import "RNUMConfigure.h"
 #import <UMPush/UMessage.h>
+#import <UMShare/UMShare.h>
 
 static void InitializeFlipper(UIApplication *application) {
   FlipperClient *client = [FlipperClient sharedClient];
