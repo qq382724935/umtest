@@ -13,6 +13,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		209190DF2579DB8B00C7BD38 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190DE2579DB8B00C7BD38 /* UserNotifications.framework */; };
+		209190E52579DB9500C7BD38 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190E42579DB9500C7BD38 /* libz.tbd */; };
+		209190EB2579DB9800C7BD38 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190E62579DB9800C7BD38 /* libsqlite3.0.tbd */; };
+		209190F12579DBA900C7BD38 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190F02579DBA900C7BD38 /* CoreTelephony.framework */; };
+		209190F72579DBAD00C7BD38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209190F62579DBAD00C7BD38 /* SystemConfiguration.framework */; };
+		209191052579DC9400C7BD38 /* UMPushModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 209190FD2579DC9400C7BD38 /* UMPushModule.m */; };
+		209191072579DC9400C7BD38 /* RNUMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 209191002579DC9400C7BD38 /* RNUMConfigure.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -52,6 +59,15 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = umtest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = umtest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = umtest/main.m; sourceTree = "<group>"; };
+		209190DE2579DB8B00C7BD38 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		209190E42579DB9500C7BD38 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		209190E62579DB9800C7BD38 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		209190F02579DBA900C7BD38 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		209190F62579DBAD00C7BD38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		209190FD2579DC9400C7BD38 /* UMPushModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPushModule.m; sourceTree = "<group>"; };
+		209191002579DC9400C7BD38 /* RNUMConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUMConfigure.m; sourceTree = "<group>"; };
+		209191022579DC9400C7BD38 /* UMPushModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPushModule.h; sourceTree = "<group>"; };
+		209191042579DC9400C7BD38 /* RNUMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUMConfigure.h; sourceTree = "<group>"; };
 		2AE074A3748EE050953C32C5 /* Pods-umtest-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-umtest-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-umtest-tvOS/Pods-umtest-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* umtest-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "umtest-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* umtest-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "umtest-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +98,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209190F72579DBAD00C7BD38 /* SystemConfiguration.framework in Frameworks */,
+				209190F12579DBA900C7BD38 /* CoreTelephony.framework in Frameworks */,
+				209190EB2579DB9800C7BD38 /* libsqlite3.0.tbd in Frameworks */,
+				209190E52579DB9500C7BD38 /* libz.tbd in Frameworks */,
+				209190DF2579DB8B00C7BD38 /* UserNotifications.framework in Frameworks */,
 				037EDD628EAE274999CAE5E9 /* libPods-umtest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,6 +146,7 @@
 		13B07FAE1A68108700A75B9A /* umtest */ = {
 			isa = PBXGroup;
 			children = (
+				209190FC2579DC9400C7BD38 /* UMReactBridge */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -136,9 +158,25 @@
 			name = umtest;
 			sourceTree = "<group>";
 		};
+		209190FC2579DC9400C7BD38 /* UMReactBridge */ = {
+			isa = PBXGroup;
+			children = (
+				209190FD2579DC9400C7BD38 /* UMPushModule.m */,
+				209191002579DC9400C7BD38 /* RNUMConfigure.m */,
+				209191022579DC9400C7BD38 /* UMPushModule.h */,
+				209191042579DC9400C7BD38 /* RNUMConfigure.h */,
+			);
+			path = UMReactBridge;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				209190F62579DBAD00C7BD38 /* SystemConfiguration.framework */,
+				209190F02579DBA900C7BD38 /* CoreTelephony.framework */,
+				209190E62579DB9800C7BD38 /* libsqlite3.0.tbd */,
+				209190E42579DB9500C7BD38 /* libz.tbd */,
+				209190DE2579DB8B00C7BD38 /* UserNotifications.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				6ACF914A8C74D64635EE9F02 /* libPods-umtest.a */,
@@ -161,7 +199,6 @@
 				72EA14BAA9BA9D67AC7F2028 /* Pods-umtest-umtestTests.debug.xcconfig */,
 				8838AB2FDE7AB3A8E484FAB1 /* Pods-umtest-umtestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -294,6 +331,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 2F2465R9XA;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -572,6 +610,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209191052579DC9400C7BD38 /* UMPushModule.m in Sources */,
+				209191072579DC9400C7BD38 /* RNUMConfigure.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -660,6 +700,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F2465R9XA;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = umtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -668,7 +709,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pec.portal;
 				PRODUCT_NAME = umtest;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -683,6 +724,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F2465R9XA;
 				INFOPLIST_FILE = umtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -690,7 +732,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pec.portal;
 				PRODUCT_NAME = umtest;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
